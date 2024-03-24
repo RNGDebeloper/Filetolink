@@ -9,10 +9,10 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '20389440'))
-    API_HASH = str(getenv('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
-    name = str(getenv('name', 'filetolinkvjbot'))
+    API_ID = int(getenv('API_ID', '24260003'))
+    API_HASH = str(getenv('API_HASH', 'a7fb5ac26f0e0a5742c43675fdec8f54'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6941510972:AAFB6_mBN7_1QnWmIXaBpB5WeW4j5DByaHA'))
+    name = str(getenv('name', 'Video_Stream_Beta_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001935365147'))
